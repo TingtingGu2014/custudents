@@ -1,0 +1,7 @@
+students/.classpath
+students/.project
+students/.settings/org.eclipse.core.resources.prefs
+students/.settings/org.eclipse.jdt.core.prefs
+students/.settings/org.eclipse.m2e.core.prefs
+.metadata
+students/target/**
