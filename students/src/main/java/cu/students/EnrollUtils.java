@@ -32,12 +32,12 @@ public class EnrollUtils {
 	
 	private static final Logger logger = LogManager.getLogger(EnrollUtils.class);
 	
-	public static Properties prop = new Properties();
-	public static String CONFIGS_FILE_NAME = "configs.properties";
-	public static String APPLICARIONS_CSV_PROPERTY = "applications.csv";
-	public static String DEPARTMENTS_CSV_PROPERTY = "departments.csv";
-	public static String APPLICATIONS_CSV_IN_COLUMN = "applications.column.studentId";
-	public static String DEPARTMENTS_CSV_IN_COLUMN = "departments.column.studentId";
+	public static final Properties prop = new Properties();
+	public static final String CONFIGS_FILE_NAME = "configs.properties";
+	public static final String APPLICARIONS_CSV_PROPERTY = "applications.csv";
+	public static final String DEPARTMENTS_CSV_PROPERTY = "departments.csv";
+	public static final String APPLICATIONS_CSV_IN_COLUMN = "applications.column.studentId";
+	public static final String DEPARTMENTS_CSV_IN_COLUMN = "departments.column.studentId";
 	
 	public static InputStream readSourceFileStream(String path) {
 		return EnrollUtils.class.getClassLoader().getResourceAsStream(path);

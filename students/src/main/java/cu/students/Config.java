@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class Config {
 	
-	private Properties props;
-	private Map<String, String> deptCourseMap;
+	private final Properties props;
+	private final Map<String, String> deptCourseMap;
 	
 	private static class SingletonHelper {
 		
